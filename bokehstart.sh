@@ -4,7 +4,7 @@
  
 
 cd /home/site/wwwroot
-source antenv3.6/bin/activate
+source antenv/bin/activate
 echo Im here
 export PORT=8000
 bokeh serve appbok.py --allow-websocket-origin "*" --port 8000 --use-xheaders --address 0.0.0.0 
