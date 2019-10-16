@@ -1,0 +1,2 @@
+$ git config --global core.autocrlf input
+# Configure Git on Linux to properly handle line endings
